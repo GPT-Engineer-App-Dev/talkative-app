@@ -39,7 +39,7 @@ function SharedLayout() {
           <div className="flex h-14 items-center border-b px-4 lg:h-[60px] lg:px-6">
             <a href="/" className="flex items-center gap-2 font-semibold">
               <Package2 className="h-6 w-6" />
-              <span className="">Acme Inc</span>
+              <span className="">Chat App</span>
             </a>
           </div>
           <div className="flex-1">
@@ -50,6 +50,41 @@ function SharedLayout() {
               >
                 <Home className="h-4 w-4" />
                 Home
+              </a>
+              <a
+                href="#"
+                className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-foreground"
+              >
+                <Users className="h-4 w-4" />
+                Contacts
+              </a>
+              <a
+                href="#"
+                className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-foreground"
+              >
+                <CircleUser className="h-4 w-4" />
+                Profile
+              </a>
+              <a
+                href="#"
+                className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-foreground"
+              >
+                <Bell className="h-4 w-4" />
+                Notifications
+              </a>
+              <a
+                href="#"
+                className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-foreground"
+              >
+                <LineChart className="h-4 w-4" />
+                Analytics
+              </a>
+              <a
+                href="#"
+                className="flex items-center gap-3 rounded-lg px-3 py-2 text-muted-foreground transition-all hover:text-foreground"
+              >
+                <ShoppingCart className="h-4 w-4" />
+                Marketplace
               </a>
             </nav>
           </div>
@@ -75,7 +110,7 @@ function SharedLayout() {
                   className="flex items-center gap-2 text-lg font-semibold"
                 >
                   <Package2 className="h-6 w-6" />
-                  <span className="sr-only">Acme Inc</span>
+                  <span className="sr-only">Chat App</span>
                 </a>
                 <a
                   href="#"
@@ -83,6 +118,41 @@ function SharedLayout() {
                 >
                   <Home className="h-5 w-5" />
                   Home
+                </a>
+                <a
+                  href="#"
+                  className="mx-[-0.65rem] flex items-center gap-4 rounded-xl px-3 py-2 text-muted-foreground hover:text-foreground"
+                >
+                  <Users className="h-5 w-5" />
+                  Contacts
+                </a>
+                <a
+                  href="#"
+                  className="mx-[-0.65rem] flex items-center gap-4 rounded-xl px-3 py-2 text-muted-foreground hover:text-foreground"
+                >
+                  <CircleUser className="h-5 w-5" />
+                  Profile
+                </a>
+                <a
+                  href="#"
+                  className="mx-[-0.65rem] flex items-center gap-4 rounded-xl px-3 py-2 text-muted-foreground hover:text-foreground"
+                >
+                  <Bell className="h-5 w-5" />
+                  Notifications
+                </a>
+                <a
+                  href="#"
+                  className="mx-[-0.65rem] flex items-center gap-4 rounded-xl px-3 py-2 text-muted-foreground hover:text-foreground"
+                >
+                  <LineChart className="h-5 w-5" />
+                  Analytics
+                </a>
+                <a
+                  href="#"
+                  className="mx-[-0.65rem] flex items-center gap-4 rounded-xl px-3 py-2 text-muted-foreground hover:text-foreground"
+                >
+                  <ShoppingCart className="h-5 w-5" />
+                  Marketplace
                 </a>
               </nav>
             </SheetContent>
