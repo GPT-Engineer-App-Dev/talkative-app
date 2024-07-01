@@ -4,8 +4,8 @@ import Index from "./pages/Index.jsx";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { Toaster } from "@/components/ui/sonner.jsx";
 
-// Use the sidebar layout for the chat application
-import SharedLayout from "./components/layouts/sidebar.jsx";
+// Use the default layout for the chat application
+    import SharedLayout from "./components/layouts/default.jsx";
 
 const queryClient = new QueryClient();
 
